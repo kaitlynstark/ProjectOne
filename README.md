@@ -1,12 +1,17 @@
 Retrieves and displays the thirty most recent editors of a Wikipedia article provided through the command line.
 Authors: Kaitlyn Stark
 
-article_utils.py reads the Wikipedia article title from the command-line arguments. api_utils.py connects to Wikipedia's API and fetches the recent edits. Both of these are completed. output_utils.py takes the data from Wikipedia and processes and prints the results. main.py ties everything together from the previous files and runs the program.
+article_utils.py reads the Wikipedia article title from the command-line arguments.
+api_utils.py connects to Wikipedia's API and fetches the recent edits.
+output_utils.py takes the data from Wikipedia and processes and prints the results.
+main.py ties everything together from the previous files and runs the program.
 
 project_one.py is the file that contains all four Python files combined into one.
 
 
-When running project_one.py, in the terminal, type "python3 project_one.py" followed by the Wikipedia article you want. I tested the code by using Taylor Swift, which yielded these results:
+When running project_one.py, in the terminal, type "python3 project_one.py" followed by the Wikipedia article you want.
+I tested the code by using Taylor Swift, which yielded these results:
+
 2025-06-09T19:58:51Z DarpSinghh
 2025-06-09T19:56:51Z DarpSinghh
 2025-06-08T20:00:22Z Red Director
